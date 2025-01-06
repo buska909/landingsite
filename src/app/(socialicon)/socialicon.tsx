@@ -1,5 +1,5 @@
 
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link';
 
 export default function SocialIcon({ httpsUrl, svgSrc, alt }:SocialMediaLinkData) {
@@ -15,6 +15,6 @@ export default function SocialIcon({ httpsUrl, svgSrc, alt }:SocialMediaLinkData
 }
 interface SocialMediaLinkData {
     httpsUrl: string;
-    svgSrc: string;
+    svgSrc: string|StaticImageData;
     alt: string;
 }

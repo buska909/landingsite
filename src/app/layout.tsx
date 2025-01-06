@@ -27,11 +27,10 @@ export default function RootLayout({
     <html lang="en">
       <head></head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-r from-indigo-500`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased text-white`}
       >
         <NavBar/>
         {children}
-        <footer>A footer</footer>
       </body>
     </html>
   );

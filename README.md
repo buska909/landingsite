@@ -37,7 +37,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 ## ATP
-- Tab header is correct
+- Tab header is correct (favicon)
 - Share the buska landing page
 - Access all social medias
 - Access a Single
+- Stream a single from a Single page
+- Tiktok in the list of socials
+- 
