@@ -36,6 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
+
 ## ATP
 - Tab header is correct (favicon)
 - Share the buska landing page
@@ -44,3 +45,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Stream a single from a Single page
 - Tiktok in the list of socials
 - 
+
+Check size:
+https://github.com/settings/repositories
+
+Delete outdated file: 
+git filter-branch --index-filter 'git rm -rf --cached --ignore-unmatch path_to_file' HEAD
+
