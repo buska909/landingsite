@@ -8,8 +8,9 @@ export default function SocialIcon({ httpsUrl, svgSrc, alt }:SocialMediaLinkData
             href={httpsUrl}
             target="_blank"
             rel="noopener noreferrer"
+            className='flex w-full h-full justify-center'
             >
-              <Image src={svgSrc} alt={alt} width={30} height={30} className='m-auto hover:scale-110 duration-200'/>
+              <Image src={svgSrc} alt={alt} className='w-8 md:w-12 table-cell align-middle m-auto hover:scale-110 duration-200'/>
         </Link>
   );
 }

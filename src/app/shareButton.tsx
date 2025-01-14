@@ -26,7 +26,7 @@ export default function ShareButton({ title, shareText, url, alt  }:ShareProps) 
         }
     }
   return (
-    <Image src={ShareSVG} alt={alt} width={15} height={15} className="hover:scale-110 duration-200 mx-auto" onClick={sharePage}/>
+    <Image src={ShareSVG} alt={alt} className="hover:scale-110 duration-200 mx-auto w-5 md:w-7" onClick={sharePage}/>
   );
 }
 
